@@ -1,0 +1,48 @@
+body {
+    background-color: aqua;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+#navbar {
+    background-color: yellow;
+    width: 100vw;
+    height: 10vh;
+}
+
+#main {
+    background-color: green;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+}
+
+#main-left {
+    background-color: coral;
+    width: 20vw;
+}
+
+#main-right {
+    background-color: crimson;
+    width: 80vw;
+}
+
+#footer {
+    background-color: blue;
+    width: 100vw;
+    height: 30vh;
+}
+
+@media (max-width:360px) {
+    #main-left {
+        display: none;
+    }
+
+    #main-right {
+        width: 100vw;
+    }
+}
